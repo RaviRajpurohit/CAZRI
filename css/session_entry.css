@@ -1,0 +1,45 @@
+body{
+	color:white;
+	font-weight: bold;
+	font-size:35px;
+	/*background-color: rgb(30, 12, 62);*/
+	background : url(../img/7.jpg);
+	background-size: 100% 150%;
+}
+
+img{
+	width: 60%;
+	height: 30%;
+	opacity:.8;
+}
+img:hover{
+	opacity:1;
+}
+button{
+	font-size: 30px;
+	width:180px;
+	border-radius:4px;
+	background-color:white;
+	border: 1px solid #3f65c0;
+	color:#b2c3ea;
+	padding: 5px 12px;
+}
+button:hover{
+	background-color:black;color:white
+}
+.left {
+	width: 50%;
+	margin-top:1%;
+	float: left
+
+
+}
+.right {
+	width: 50%;
+	margin-top:1%;
+	float: right
+}
+.img{
+	width:350px;
+	height:200px
+}

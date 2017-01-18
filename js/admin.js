@@ -1,23 +1,30 @@
-function admin_today_selling() {
-    document.getElementById('myIframe').src = 'admin_selling.php';
+//-----------admin use---------------
+function seedling_price(){
+	document.getElementById('myIframe').src = 'admin_use/seedling_price.php';
 }
-function today_selling(){
-    document.getElementById('myIframe').src = 'other/today_selling.php?user='+login_user;
+function transaction_details() {
+    document.getElementById('myIframe').src = 'admin_use/transaction_details.php';
 }
-function set_price(){
-  
-    document.getElementById('myIframe').src = 'other/set_price.php';
+function add_remove(){
+    document.getElementById('myIframe').src = 'admin_use/add_remove.php';
 }
-function price(){
-    document.getElementById('myIframe').src = 'other/set_price.php';
+function seedling_stock(){
+    document.getElementById('myIframe').src = 'admin_use/seedling_stock.php';
+}
+function profile(){
+    document.getElementById('myIframe').src = 'admin_use/profile.php';
 }
 
-function add_remove(){
-    document.getElementById('myIframe').src = 'other/add_remove.php';
+
+
+
+//-------------other user use----------------
+function present_stock(){
+	document.getElementById('myIframe').src = 'other_use/present_stock.php?user='+login_user+'&nursery='+nursery;
 }
-function inventory(){
-    document.getElementById('myIframe').src = 'other/inventory.php';
+function stock_sale_enquiry(){
+    document.getElementById('myIframe').src = 'other_use/stock_sale_enquiry.php?user='+login_user+'&nursery='+nursery;
 }
-function your_sell(){
-    document.getElementById('myIframe').src = 'other/your_selling.php?user='+login_user;
+function nursery_trade_record(){
+	document.getElementById('myIframe').src = 'other_use/nursery_trade_record.php?user='+login_user+'&nursery='+nursery;
 }
