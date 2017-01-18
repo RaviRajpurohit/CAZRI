@@ -10,7 +10,7 @@ The administrator should be able to change the values/prices etc. as well as gen
 
 The technology to be used shall be a combination of PHP, JS, HTML5 and MySQL.
 
-I'm worked on this project under guidance of <b>Gaurav Sir</b> from <a href="http://rrscw.nrsc.gov.in/" target="_blank"><b>Regional Remote Sensing Centre - West</b></a> under the <a href="http://www.isro.gov.in/" target="_blank"><b>ISRO</b></a> Headquarters.
+I was working on this project under guidance of <b>Gaurav Sir</b> from <a href="http://rrscw.nrsc.gov.in/" target="_blank"><b>Regional Remote Sensing Centre - West</b></a> under the <a href="http://www.isro.gov.in/" target="_blank"><b>ISRO</b></a> Headquarters.
 
 <b>Thank you</br></b>
 <i>Ravi Rajpurohit</i><br>
